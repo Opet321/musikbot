@@ -1,6 +1,6 @@
 from pytgcalls import PyTgCalls
 from pytgcalls.types import Update
-from pytgcalls.types import AudioPiped # Hapus '.input_stream'
+from pytgcalls.types import AudioPiped
 from assistant import assistant
 from queue import get_next, has_queue
 
