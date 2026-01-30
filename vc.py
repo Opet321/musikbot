@@ -1,8 +1,7 @@
 from pytgcalls import PyTgCalls
 from pytgcalls.types import Update
-from pytgcalls.types import AudioPiped # Di versi 2.x, ini diimport langsung dari types
+from pytgcalls.types import AudioPiped 
 from assistant import assistant
-# Ubah dari 'queue' menjadi 'helper_queue' sesuai nama file baru kamu
 from helper_queue import get_next, has_queue 
 
 pytg = PyTgCalls(assistant)
