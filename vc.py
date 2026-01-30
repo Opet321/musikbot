@@ -12,8 +12,6 @@ async def on_stream_end(client: PyTgCalls, update: Update):
 
     if has_queue(chat_id):
         next_file = get_next(chat_id)
-        # Di versi 2.x, gunakan pytg.play bukan change_stream
         await pytg.play(chat_id, AudioPiped(next_file)) 
     else:
-        # Di versi 2.x, method ini juga berubah menjadi leave_call
         await pytg.leave_call(chat_id)
