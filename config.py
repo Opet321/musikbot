@@ -1,0 +1,6 @@
+API_ID = 123456
+API_HASH = "API_HASH_KAMU"
+BOT_TOKEN = "BOT_TOKEN_KAMU"
+
+BOT_NAME = "Nama Bot Music"
+BOT_USERNAME = "NamaBotMusicBot"
